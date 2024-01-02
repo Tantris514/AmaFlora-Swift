@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D983EDA2B44AB1900D6037B /* AmaFloraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D983ED92B44AB1900D6037B /* AmaFloraApp.swift */; };
+		1D983EDC2B44AB1900D6037B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D983EDB2B44AB1900D6037B /* ContentView.swift */; };
+		1D983EDE2B44AB1B00D6037B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D983EDD2B44AB1B00D6037B /* Assets.xcassets */; };
+		1D983EE12B44AB1B00D6037B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D983EE02B44AB1B00D6037B /* Preview Assets.xcassets */; };
+		1D983EEB2B44AB1B00D6037B /* AmaFloraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D983EEA2B44AB1B00D6037B /* AmaFloraTests.swift */; };
+		1D983EF52B44AB1B00D6037B /* AmaFloraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D983EF42B44AB1B00D6037B /* AmaFloraUITests.swift */; };
+		1D983EF72B44AB1B00D6037B /* AmaFloraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D983EF62B44AB1B00D6037B /* AmaFloraUITestsLaunchTests.swift */; };
+		1D983F062B44AC8800D6037B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D983F052B44AC8800D6037B /* SplashScreenView.swift */; };
+		1D983F082B44B80900D6037B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D983F072B44B80900D6037B /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D983EE72B44AB1B00D6037B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D983ECE2B44AB1900D6037B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D983ED52B44AB1900D6037B;
+			remoteInfo = AmaFlora;
+		};
+		1D983EF12B44AB1B00D6037B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D983ECE2B44AB1900D6037B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D983ED52B44AB1900D6037B;
+			remoteInfo = AmaFlora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D983ED62B44AB1900D6037B /* AmaFlora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaFlora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D983ED92B44AB1900D6037B /* AmaFloraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaFloraApp.swift; sourceTree = "<group>"; };
+		1D983EDB2B44AB1900D6037B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D983EDD2B44AB1B00D6037B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D983EE02B44AB1B00D6037B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D983EE62B44AB1B00D6037B /* AmaFloraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaFloraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D983EEA2B44AB1B00D6037B /* AmaFloraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaFloraTests.swift; sourceTree = "<group>"; };
+		1D983EF02B44AB1B00D6037B /* AmaFloraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaFloraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D983EF42B44AB1B00D6037B /* AmaFloraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaFloraUITests.swift; sourceTree = "<group>"; };
+		1D983EF62B44AB1B00D6037B /* AmaFloraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaFloraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D983F052B44AC8800D6037B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		1D983F072B44B80900D6037B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D983ED32B44AB1900D6037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D983EE32B44AB1B00D6037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D983EED2B44AB1B00D6037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D983ECD2B44AB1900D6037B = {
+			isa = PBXGroup;
+			children = (
+				1D983ED82B44AB1900D6037B /* AmaFlora */,
+				1D983EE92B44AB1B00D6037B /* AmaFloraTests */,
+				1D983EF32B44AB1B00D6037B /* AmaFloraUITests */,
+				1D983ED72B44AB1900D6037B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D983ED72B44AB1900D6037B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D983ED62B44AB1900D6037B /* AmaFlora.app */,
+				1D983EE62B44AB1B00D6037B /* AmaFloraTests.xctest */,
+				1D983EF02B44AB1B00D6037B /* AmaFloraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D983ED82B44AB1900D6037B /* AmaFlora */ = {
+			isa = PBXGroup;
+			children = (
+				1D983ED92B44AB1900D6037B /* AmaFloraApp.swift */,
+				1D983F052B44AC8800D6037B /* SplashScreenView.swift */,
+				1D983EDB2B44AB1900D6037B /* ContentView.swift */,
+				1D983EDD2B44AB1B00D6037B /* Assets.xcassets */,
+				1D983EDF2B44AB1B00D6037B /* Preview Content */,
+				1D983F072B44B80900D6037B /* Color.swift */,
+			);
+			path = AmaFlora;
+			sourceTree = "<group>";
+		};
+		1D983EDF2B44AB1B00D6037B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D983EE02B44AB1B00D6037B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D983EE92B44AB1B00D6037B /* AmaFloraTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D983EEA2B44AB1B00D6037B /* AmaFloraTests.swift */,
+			);
+			path = AmaFloraTests;
+			sourceTree = "<group>";
+		};
+		1D983EF32B44AB1B00D6037B /* AmaFloraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D983EF42B44AB1B00D6037B /* AmaFloraUITests.swift */,
+				1D983EF62B44AB1B00D6037B /* AmaFloraUITestsLaunchTests.swift */,
+			);
+			path = AmaFloraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D983ED52B44AB1900D6037B /* AmaFlora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D983EFA2B44AB1B00D6037B /* Build configuration list for PBXNativeTarget "AmaFlora" */;
+			buildPhases = (
+				1D983ED22B44AB1900D6037B /* Sources */,
+				1D983ED32B44AB1900D6037B /* Frameworks */,
+				1D983ED42B44AB1900D6037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmaFlora;
+			productName = AmaFlora;
+			productReference = 1D983ED62B44AB1900D6037B /* AmaFlora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D983EE52B44AB1B00D6037B /* AmaFloraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D983EFD2B44AB1B00D6037B /* Build configuration list for PBXNativeTarget "AmaFloraTests" */;
+			buildPhases = (
+				1D983EE22B44AB1B00D6037B /* Sources */,
+				1D983EE32B44AB1B00D6037B /* Frameworks */,
+				1D983EE42B44AB1B00D6037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D983EE82B44AB1B00D6037B /* PBXTargetDependency */,
+			);
+			name = AmaFloraTests;
+			productName = AmaFloraTests;
+			productReference = 1D983EE62B44AB1B00D6037B /* AmaFloraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D983EEF2B44AB1B00D6037B /* AmaFloraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D983F002B44AB1B00D6037B /* Build configuration list for PBXNativeTarget "AmaFloraUITests" */;
+			buildPhases = (
+				1D983EEC2B44AB1B00D6037B /* Sources */,
+				1D983EED2B44AB1B00D6037B /* Frameworks */,
+				1D983EEE2B44AB1B00D6037B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D983EF22B44AB1B00D6037B /* PBXTargetDependency */,
+			);
+			name = AmaFloraUITests;
+			productName = AmaFloraUITests;
+			productReference = 1D983EF02B44AB1B00D6037B /* AmaFloraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D983ECE2B44AB1900D6037B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1D983ED52B44AB1900D6037B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1D983EE52B44AB1B00D6037B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1D983ED52B44AB1900D6037B;
+					};
+					1D983EEF2B44AB1B00D6037B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1D983ED52B44AB1900D6037B;
+					};
+				};
+			};
+			buildConfigurationList = 1D983ED12B44AB1900D6037B /* Build configuration list for PBXProject "AmaFlora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D983ECD2B44AB1900D6037B;
+			productRefGroup = 1D983ED72B44AB1900D6037B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D983ED52B44AB1900D6037B /* AmaFlora */,
+				1D983EE52B44AB1B00D6037B /* AmaFloraTests */,
+				1D983EEF2B44AB1B00D6037B /* AmaFloraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D983ED42B44AB1900D6037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D983EE12B44AB1B00D6037B /* Preview Assets.xcassets in Resources */,
+				1D983EDE2B44AB1B00D6037B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D983EE42B44AB1B00D6037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D983EEE2B44AB1B00D6037B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D983ED22B44AB1900D6037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D983EDC2B44AB1900D6037B /* ContentView.swift in Sources */,
+				1D983F082B44B80900D6037B /* Color.swift in Sources */,
+				1D983EDA2B44AB1900D6037B /* AmaFloraApp.swift in Sources */,
+				1D983F062B44AC8800D6037B /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D983EE22B44AB1B00D6037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D983EEB2B44AB1B00D6037B /* AmaFloraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D983EEC2B44AB1B00D6037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D983EF72B44AB1B00D6037B /* AmaFloraUITestsLaunchTests.swift in Sources */,
+				1D983EF52B44AB1B00D6037B /* AmaFloraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D983EE82B44AB1B00D6037B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D983ED52B44AB1900D6037B /* AmaFlora */;
+			targetProxy = 1D983EE72B44AB1B00D6037B /* PBXContainerItemProxy */;
+		};
+		1D983EF22B44AB1B00D6037B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D983ED52B44AB1900D6037B /* AmaFlora */;
+			targetProxy = 1D983EF12B44AB1B00D6037B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D983EF82B44AB1B00D6037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D983EF92B44AB1B00D6037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D983EFB2B44AB1B00D6037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmaFlora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaflora.AmaFlora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D983EFC2B44AB1B00D6037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmaFlora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaflora.AmaFlora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D983EFE2B44AB1B00D6037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaflora.AmaFloraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmaFlora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmaFlora";
+			};
+			name = Debug;
+		};
+		1D983EFF2B44AB1B00D6037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaflora.AmaFloraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmaFlora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmaFlora";
+			};
+			name = Release;
+		};
+		1D983F012B44AB1B00D6037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaflora.AmaFloraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmaFlora;
+			};
+			name = Debug;
+		};
+		1D983F022B44AB1B00D6037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaflora.AmaFloraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmaFlora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D983ED12B44AB1900D6037B /* Build configuration list for PBXProject "AmaFlora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D983EF82B44AB1B00D6037B /* Debug */,
+				1D983EF92B44AB1B00D6037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D983EFA2B44AB1B00D6037B /* Build configuration list for PBXNativeTarget "AmaFlora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D983EFB2B44AB1B00D6037B /* Debug */,
+				1D983EFC2B44AB1B00D6037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D983EFD2B44AB1B00D6037B /* Build configuration list for PBXNativeTarget "AmaFloraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D983EFE2B44AB1B00D6037B /* Debug */,
+				1D983EFF2B44AB1B00D6037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D983F002B44AB1B00D6037B /* Build configuration list for PBXNativeTarget "AmaFloraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D983F012B44AB1B00D6037B /* Debug */,
+				1D983F022B44AB1B00D6037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D983ECE2B44AB1900D6037B /* Project object */;
+}
