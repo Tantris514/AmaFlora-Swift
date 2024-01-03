@@ -9,11 +9,9 @@
 import SwiftUI
 
 struct HomeView: View {
-    // Assuming you have a Plant model
-    var plants: [Plant] = Plant.samplePlants() // Your plant data here
-
+    var plants: [Plant] = Plant.samplePlants()
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List(plants) { plant in
                 HStack {
                     Image(plant.imageName)
@@ -27,18 +25,24 @@ struct HomeView: View {
                         .font(.headline)
                         .padding(.leading, 8)
                 }
-                .padding(.vertical, 4) // Add padding to give some breathing room
+                .padding(.vertical, 4)
             }
             .navigationTitle("Your Plants")
-            .background(Color(hex: "16641d"))
+            .toolbarBackground(
+                Color(.lightGray),for: .navigationBar)
+            .toolbarColorScheme(.light, for: .navigationBar)
+
+            .toolbarBackground(.visible, for: .navigationBar)
+
             .navigationBarItems(
                 leading: menuButton,
                 trailing: settingsButton
             )
 
         }
+        
         .overlay(
-            addButton.padding(16), // Add padding around the button for better positioning
+            addButton.padding(16),
             alignment: .bottomTrailing
         )
     }
@@ -58,6 +62,7 @@ struct HomeView: View {
         }) {
             Image(systemName: "ellipsis.circle")
                 .imageScale(.large)
+
         }
     }
     
